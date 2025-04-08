@@ -1,6 +1,6 @@
 {
   "name": "@302ai/sandbox-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Model Context Protocol server",
   "type": "module",
   "publishConfig": {
@@ -21,7 +21,7 @@
     "sandbox"
   ],
   "bin": {
-    "@302ai/sandbox-mcp": "./build/index.js"
+    "sandbox-mcp": "build/index.js"
   },
   "files": [
     "build"

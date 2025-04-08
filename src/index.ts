@@ -88,7 +88,7 @@ class AI302Server {
     this.server = new Server(
       {
         name: "302ai-sandbox-mcp",
-        version: "0.1.0",
+        version: "0.2.0",
       },
       {
         capabilities: {
