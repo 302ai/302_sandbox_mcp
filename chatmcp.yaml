@@ -1,0 +1,56 @@
+ 
+params:
+  type: object
+  properties:
+    302AI_API_KEY:
+      type: string
+      description: 302AI API Key
+  required:
+    - 302AI_API_KEY
+ 
+rest:
+  name: 302AI
+  port: 9593
+  endpoint: /rest
+ 
+npx:
+  command:
+    | 302AI_API_KEY={302AI_API_KEY} npx -y @302ai/mcp-server
+  config:
+    | {
+        "mcpServers": {
+          "302ai-mcp": {
+            "command": "npx",
+            "args": [
+              "-y",
+              "@302ai/mcp-server"
+            ],
+            "env": {
+              "302AI_API_KEY": "YOUR_API_KEY_HERE"
+            }
+          }
+        }
+      }
+ 
+docker:
+  command:
+    | docker run -i --rm -e 302AI_API_KEY={302AI_API_KEY} mcp/302ai-mcp-server
+  config:
+    | {
+        "mcpServers": {
+          "302ai-mcp": {
+            "command": "docker",
+            "args": [
+              "run",
+              "-i",
+              "--rm",
+              "-e",
+              "302AI_API_KEY",
+              "mcp/302ai-mcp-server"
+            ],
+            "env": {
+              "302AI_API_KEY": "YOUR_API_KEY_HERE"
+            }
+          }
+        }
+      }

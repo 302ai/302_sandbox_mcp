@@ -1,0 +1,52 @@
+{
+  "name": "@302ai/sandbox-mcp",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": "302.ai",
+  "homepage": "https://github.com/302ai",
+  "bugs": "https://github.com/302ai/302_sandbox_mcp/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/302ai/302_sandbox_mcp.git"
+  },
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "302AI",
+    "sandbox"
+  ],
+  "bin": {
+    "@302ai/sandbox-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "start": "node build/index.js",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "@better-fetch/fetch": "^1.1.18",
+    "@chatmcp/sdk": "^1.0.5",
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "dotenv": "^16.4.5",
+    "ky": "^1.8.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0-beta.1",
+    "@changesets/cli": "^2.28.1",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
