@@ -118,6 +118,7 @@ Go to Settings -> Tools -> Add button -> Select Import from Clipboard
 ![](docs/302_Sandbox_MCP_Server_en_screenshot_04.jpg)
 
 ### Find Your 302AI_API_KEY [here](https://dash.302.ai/apis/list)
+[Using Tutorials](https://help.302.ai/docs/API-guan-li)
 
 ### Debugging
 
@@ -128,3 +129,12 @@ npm run inspector
 ```
 
 The Inspector will provide a URL to access debugging tools in your browser.
+
+## ✨ About 302.AI ✨
+[302.AI](https://302.ai/en/) is an enterprise-oriented AI application platform that offers pay-as-you-go services, ready-to-use solutions, and an open-source ecosystem.✨
+1. 🧠 Integrates the latest and most comprehensive AI capabilities and brands, including but not limited to language models, image models, voice models, and video models.
+2. 🚀 Develops deep applications based on foundation models - we develop real AI products, not just simple chatbots
+3. 💰 Zero monthly fee, all features are pay-per-use, fully open, achieving truly low barriers with high potential.
+4. 🛠 Powerful management backend for teams and SMEs - one person manages, many people use.
+5. 🔗 All AI capabilities provide API access, all tools are open source and customizable (in progress).
+6. 💡 Strong development team, launching 2-3 new applications weekly, products updated daily. Developers interested in joining are welcome to contact us.
