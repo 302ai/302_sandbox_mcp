@@ -118,7 +118,7 @@ Go to Settings -> Tools -> Add button -> Select Import from Clipboard
 ![](docs/302_Sandbox_MCP_Server_en_screenshot_04.jpg)
 
 ### Find Your 302AI_API_KEY [here](https://dash.302.ai/apis/list)
-[Using Tutorials](https://help.302.ai/docs/API-guan-li)
+[Using Tutorials](https://help.302.ai/en/docs/API-guan-li)
 
 ### Debugging
 
