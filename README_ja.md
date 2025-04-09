@@ -115,7 +115,7 @@ ChatWiseで使用するには、以下の内容をクリップボードにコピ
 ![](docs/302_Sandbox_MCP_Server_jp_screenshot_04.jpg)
 
 ### [ここ](https://dash.302.ai/apis/list)で302AI_API_KEYを取得してください
-[使用チュートリアル](https://help.302.ai/docs/API-guan-li)
+[使用チュートリアル](https://help.302.ai/jp/docs/API-guan-li)
 
 ### デバッグ
 
