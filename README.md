@@ -98,3 +98,33 @@ To use with Cherry Studio, add the server config:
       }
     }
   }
+```
+
+To use with ChatWise, copy the following content to clipboard
+```json
+{
+  "mcpServers": {
+    "302ai-sandbox-mcp": {
+      "command": "npx",
+      "args": ["-y", "@302ai/sandbox-mcp"],
+      "env": {
+        "302AI_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    }
+  }
+}
+```
+Go to Settings -> Tools -> Add button -> Select Import from Clipboard
+![](docs/302_Sandbox_MCP_Server_en_screenshot_04.jpg)
+
+### Find Your 302AI_API_KEY [here](https://dash.302.ai/apis/list)
+
+### Debugging
+
+Since MCP servers communicate over stdio, debugging can be challenging. We recommend using the [MCP Inspector](https://github.com/modelcontextprotocol/inspector), which is available as a package script:
+
+```bash
+npm run inspector
+```
+
+The Inspector will provide a URL to access debugging tools in your browser.
