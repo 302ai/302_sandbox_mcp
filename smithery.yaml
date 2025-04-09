@@ -10,7 +10,7 @@ startCommand:
     (config) => ({
       "command": "node",
       "args": [
-        "dist/index.js"
+        "build/index.js"
       ],
       "env": {
         "302AI_API_KEY": "YOUR_API_KEY"
