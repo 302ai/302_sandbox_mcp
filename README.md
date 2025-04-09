@@ -1,6 +1,6 @@
 # <p align="center">🤖 302AI Sandbox MCP Server🚀✨</p>
 
-<p align="center">An MCP server built on Next.js 14, offering seamless integration with Claude Desktop, multilingual interface support, professional debugging tools, and a complete solution for large language model experimentation and development.</p>
+<p align="center">An MCP service with code sandbox that allows AI assistants to safely execute arbitrary code.</p>
 
 <p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 

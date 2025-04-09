@@ -1,6 +1,6 @@
 # <p align="center">🤖 302AI 代码沙盒 MCP 服务🚀✨</p>
 
-<p align="center">一个基于 Next.js 14 构建的 MCP 服务器，提供与 Claude Desktop 的无缝集成，支持多语言界面，配备专业的调试工具，为大型语言模型的实验和开发提供完整的解决方案。</p>
+<p align="center">一个代码沙盒的MCP服务，能让AI助手使用沙盒以安全的方式运行任意代码。</p>
 
 <p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 

@@ -1,6 +1,6 @@
 # <p align="center">🤖 302 AIコードサンドボックスMCPサービス🚀✨</p>
 
-<p align="center">Next.js 14で構築されたMCPサーバーで、Claude Desktopとのシームレスな統合、多言語インターフェースのサポート、専門的なデバッグツールを提供し、大規模言語モデルの実験と開発のための完全なソリューションを提供します。</p>
+<p align="center">AIアシスタントがサンドボックスを使用して安全に任意のコードを実行できるMCPサービスです。</p>
 
 <p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
