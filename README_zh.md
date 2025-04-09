@@ -2,7 +2,7 @@
 
 <p align="center">一个代码沙盒的MCP服务，能让AI助手使用沙盒以安全的方式运行任意代码。</p>
 
-<p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://www.npmjs.com/package/@302ai/sandbox-mcp" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -19,10 +19,10 @@
    
 
 ## ✨ 功能特性 ✨
-### 🔧 远程动态加载工具
-### 💻 [一键运行代码](https://302ai.apifox.cn/api-276039652)
-- 自动创建沙盒，执行完立马摧毁， 可选导出沙盒文件功能（如果文件夹路径下有多个文件，会压缩成压缩包导出。单个文件直接导出）
+- 🔧 动态加载 - 自动从远程服务器更新工具列表
+- 🌐 支持多种模式，可以在本地使用 `stdin` 模式，或者作为远程 HTTP 服务器运行
 ### 🚀 工具列表
+- [一键运行代码](https://302ai.apifox.cn/api-276039652)
 - [创建沙盒](https://302ai.apifox.cn/api-276079606)
 - [查询自己的沙盒列表](https://302ai.apifox.cn/api-276086526)
 - [摧毁沙盒](https://302ai.apifox.cn/api-276092957)

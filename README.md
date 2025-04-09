@@ -2,26 +2,32 @@
 
 <p align="center">An MCP service with code sandbox that allows AI assistants to safely execute arbitrary code.</p>
 
-<p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://www.npmjs.com/package/@302ai/sandbox-mcp" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_Sandbox_MCP_Server_en.jpg) 
 
-## Interface Preview
+## Previews
+
 Here are some usage examples
+
 ![](docs/302_Sandbox_MCP_Server_en_screenshot_01.png)     
+
 ![](docs/302_Sandbox_MCP_Server_en_screenshot_02.png)     
 
 Here is the list of supported tools
+
 ![](docs/302_Sandbox_MCP_Server_en_screenshot_03.png)
 
-   
+
 ## ✨ Features ✨
-### 🔧 Remote Dynamic Tool Loading
-### 💻 [One-click Code Execution](https://302ai.apifox.cn/api-276039652)
-- Automatically create a sandbox, and destroy it immediately after execution. Optional feature to export sandbox files (if there are multiple files in the directory, they will be compressed into a zip file for export; a single file will be exported directly)
-### 🚀 Tool List
+
+- 🔧 Dynamic Loading - Automatically update tool list from remote server.
+- 🌐 Multi modes supported, you can use `stdin` mode locally, or host it as a remote HTTP server
+
+## 🚀 Tool List
+- [One-click Code Execution](https://302ai.apifox.cn/api-276039652)
 - [Create Sandbox](https://302ai.apifox.cn/api-276079606)
 - [Query Your Sandbox List](https://302ai.apifox.cn/api-276086526)
 - [Destroy Sandbox](https://302ai.apifox.cn/api-276092957)
@@ -92,34 +98,3 @@ To use with Cherry Studio, add the server config:
       }
     }
   }
-}
-```
-
-To use with ChatWise, copy the following content to clipboard
-```json
-{
-  "mcpServers": {
-    "302ai-sandbox-mcp": {
-      "command": "npx",
-      "args": ["-y", "@302ai/sandbox-mcp"],
-      "env": {
-        "302AI_API_KEY": "YOUR_API_KEY_HERE"
-      }
-    }
-  }
-}
-```
-Go to Settings -> Tools -> Add button -> Select Import from Clipboard
-![](docs/302_Sandbox_MCP_Server_en_screenshot_04.jpg)
-
-### Find Your 302AI_API_KEY [here](https://dash.302.ai/apis/list)
-
-### Debugging
-
-Since MCP servers communicate over stdio, debugging can be challenging. We recommend using the [MCP Inspector](https://github.com/modelcontextprotocol/inspector), which is available as a package script:
-
-```bash
-npm run inspector
-```
-
-The Inspector will provide a URL to access debugging tools in your browser.

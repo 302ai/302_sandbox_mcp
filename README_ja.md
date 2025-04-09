@@ -2,7 +2,7 @@
 
 <p align="center">AIアシスタントがサンドボックスを使用して安全に任意のコードを実行できるMCPサービスです。</p>
 
-<p align="center"><a href="https://302ai.apifox.cn/api-276039652/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://www.npmjs.com/package/@302ai/sandbox-mcp" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -19,10 +19,10 @@
    
 
 ## ✨ 機能特性 ✨
-### 🔧 リモート動的ツール読み込み
-### 💻 [ワンクリックでコードを実行](https://302ai.apifox.cn/api-276039652)
-- サンドボックスを自動的に作成し、実行後すぐに破棄します。サンドボックスファイルのエクスポート機能を選択可能（ディレクトリに複数のファイルがある場合、圧縮ファイルとしてエクスポートされます。単一ファイルの場合は直接エクスポートされます）
+- 🔧 動的ローディング - リモートサーバーから自動的にツールリストを更新
+- 🌐 複数のモードをサポート、ローカルで `stdin` モードを使用、またはリモートHTTPサーバーとしてホスト可能
 ### 🚀 ツールリスト
+- [ワンクリックでコードを実行](https://302ai.apifox.cn/api-276039652)
 - [サンドボックスの作成](https://302ai.apifox.cn/api-276079606)
 - [自分のサンドボックスリストを照会](https://302ai.apifox.cn/api-276086526)
 - [サンドボックスの破壊](https://302ai.apifox.cn/api-276092957)
