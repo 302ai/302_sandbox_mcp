@@ -15,15 +15,15 @@ rest:
  
 npx:
   command:
-    | 302AI_API_KEY={302AI_API_KEY} npx -y @302ai/mcp-server
+    | 302AI_API_KEY={302AI_API_KEY} npx -y @302ai/sandbox-mcp
   config:
     | {
         "mcpServers": {
-          "302ai-mcp": {
+          "302ai-sandbox-mcp": {
             "command": "npx",
             "args": [
               "-y",
-              "@302ai/mcp-server"
+              "@302ai/sandbox-mcp"
             ],
             "env": {
               "302AI_API_KEY": "YOUR_API_KEY_HERE"
