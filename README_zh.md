@@ -10,8 +10,8 @@
 
 ## 界面预览
 以下是使用示例
-![](docs/302_Sandbox_MCP_Server_screenshot_01.png)     
-![](docs/302_Sandbox_MCP_Server_screenshot_02.png)     
+![](docs/302_Sandbox_MCP_Server_screenshot_01.jpg)     
+![](docs/302_Sandbox_MCP_Server_screenshot_02.jpg)     
 
 以下是支持使用的工具列表
 ![](docs/302_Sandbox_MCP_Server_screenshot_03.png)
