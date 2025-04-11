@@ -98,6 +98,7 @@ To use with Cherry Studio, add the server config:
       }
     }
   }
+}
 ```
 
 To use with ChatWise, copy the following content to clipboard
