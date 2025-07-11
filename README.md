@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/302ai-302-sandbox-mcp-badge.png)](https://mseep.ai/app/302ai-302-sandbox-mcp)
+
 # <p align="center">🤖 302AI Sandbox MCP Server🚀✨</p>
 
 <p align="center">An MCP service with code sandbox that allows AI assistants to safely execute arbitrary code.</p>
