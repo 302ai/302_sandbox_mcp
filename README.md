@@ -6,7 +6,7 @@
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
-![](docs/302_Sandbox_MCP_Server_en.jpg) 
+![](docs/302_Sandbox_MCP_Server_en.png) 
 
 ## Previews
 
